@@ -9,3 +9,6 @@ I use the next frameworks / libraries:
 - Bootstrap 3
 - Canvas to BMP (https://github.com/epistemex/canvas-to-bmp)
 - Cropper.js (http://fengyuanchen.github.io/cropper/)
+
+Since it's not the project target, I use CSS (not SASS for building styles)
+I use a pu (pictures-uploader) pre-fix for bulding CSS classes and id's html attr.
