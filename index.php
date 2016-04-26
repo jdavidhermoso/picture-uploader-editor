@@ -33,7 +33,27 @@
                     </div>
                 </div>
             </section>
-
+            <div class="modal fade" id="pu-crop-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Crop image</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Crop your image! </p>
+                            <div class="pu-crop-modal-image-container">
+                                <img src="" class="img-responsive" id="pu-crop-modal-image" />
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" id="pu-crop-modal-accept-btn" class="btn btn-primary">Save image!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </body>
 </html>
