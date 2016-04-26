@@ -14,8 +14,22 @@
                 <h1> Bootstrap Pictures Uploader </h1>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2">
+                        <div class="pu-image-container">
+                            <img src="" class="img-responsive" id="pu-image" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
-
+                        <form id="pu-form">
+                            <div class="form-group">
+                                <input type="file" class="form-control" id="pu-image-input" />
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-default">
+                                    Upload image!
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
